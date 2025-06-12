@@ -31,3 +31,9 @@ int main () {
   std::cout << "siddharth" << std::endl;
 }
 ```
+### Variable
+```cpp
+const uuid = 756984;
+
+uuid = 44587; // error; ❌
+```
