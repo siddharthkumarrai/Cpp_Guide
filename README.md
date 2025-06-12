@@ -2,7 +2,7 @@
 
 - #include -> Preprocessor directives
 ## How to use namespace
-- using full namespace
+- Method 1
 ```cpp
 #include <iostream>
 
@@ -12,7 +12,7 @@ int main () {
   cout << "siddharth";
 }
 ```
-- using namespace methods
+- Method 2
 ```cpp
 #include <iostream>
 
@@ -20,7 +20,7 @@ int main () {
   std::cout << "siddharth" << std::endl;
 }
 ```
-- namespace way to use
+- Method 3
 ```cpp
 #include <iostream>
 
