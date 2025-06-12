@@ -33,7 +33,7 @@ int main () {
 ```
 ### Variable
 ```cpp
-const uuid = 756984;
+const int uuid = 756984;
 
 uuid = 44587; // error; ❌
 ```
