@@ -1,6 +1,7 @@
 # C++ Guide
 
 - #include -> Preprocessor directives
+## How to use namespace
 - using full namespace
 ```cpp
 #include <iostream>
