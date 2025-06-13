@@ -1,5 +1,6 @@
 # C++ Guide
 
+```mermaid
 graph TD
     A["C++"] --> B["Platform dependent"]
     A --> C["Object-oriented"]
@@ -13,7 +14,7 @@ graph TD
     style D fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
     style E fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
     style F fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-
+```
 - #include -> Preprocessor directives
 ## How to use namespace
 - Method 1
