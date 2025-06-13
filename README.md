@@ -7,13 +7,13 @@ graph TD
     B --> D["Statically-typed"]
     C --> E["Speed"]
     D --> F["Pointers"]
-     
-    style A fill:#f9f9f9,stroke:#333,stroke-width:3px
-    style B fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
-    style C fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
-    style D fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
-    style E fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
-    style F fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:3px,color:#000
+    style B fill:#e1f5fe,stroke:#0277bd,stroke-width:2px,color:#000
+    style C fill:#e1f5fe,stroke:#0277bd,stroke-width:2px,color:#000
+    style D fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
+    style E fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
+    style F fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
 ```
 - #include -> Preprocessor directives
 ## How to use namespace
