@@ -1,5 +1,19 @@
 # C++ Guide
 
+graph TD
+    A["C++"] --> B["Platform dependent"]
+    A --> C["Object-oriented"]
+    B --> D["Statically-typed"]
+    C --> E["Speed"]
+    D --> F["Pointers"]
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:3px
+    style B fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    style C fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    style D fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style E fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    style F fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+
 - #include -> Preprocessor directives
 ## How to use namespace
 - Method 1
