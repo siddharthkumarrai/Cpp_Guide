@@ -180,7 +180,7 @@ int* ptr = &var;               // Address-of operator
 int value = *ptr;              // Dereference operator
 Operator Precedence (High to Low)
 ```
-
+```cpp
 () [] -> . - Postfix operators
 ++ -- + - ! ~ * & sizeof - Unary operators
 * / % - Multiplicative
@@ -195,4 +195,4 @@ Operator Precedence (High to Low)
 || - Logical OR
 ?: - Ternary
 = += -= *= /= %= - Assignment
-
+```
