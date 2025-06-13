@@ -115,7 +115,7 @@ int product = a * b;    // Multiplication: 30
 int quotient = a / b;   // Division: 3
 int remainder = a % b;  // Modulus: 1
 ```
-3. Assignment Operators
+2. Assignment Operators
 Assign values to variables:
 ```cpp
 int x = 5;      // Simple assignment
@@ -125,7 +125,7 @@ x *= 2;         // Multiply and assign: x = x * 2 (12)
 x /= 3;         // Divide and assign: x = x / 3 (4)
 x %= 3;         // Modulus and assign: x = x % 3 (1)
 ```
-5. Comparison Operators
+3. Comparison Operators
 Compare two values and return true/false:
 ```cpp
 int a = 5, b = 10;
@@ -136,7 +136,7 @@ bool result4 = (a > b);     // Greater than: false
 bool result5 = (a <= b);    // Less than or equal to: true
 bool result6 = (a >= b);    // Greater than or equal to: false
 ```
-7. Logical Operators
+4. Logical Operators
 Combine boolean expressions:
 ```cpp
 bool x = true, y = false;
@@ -144,7 +144,7 @@ bool result1 = x && y;      // AND: false
 bool result2 = x || y;      // OR: true
 bool result3 = !x;          // NOT: false
 ```
-9. Increment/Decrement Operators
+5. Increment/Decrement Operators
 Increase or decrease values by 1:
 ```cpp
 int num = 5;
@@ -153,7 +153,7 @@ num++;          // Post-increment: use value, then increment (num becomes 6)
 num--;          // Post-decrement: use value, then decrement (num becomes 6)
 --num;          // Pre-decrement: decrement, then use value (num becomes 5)
 ```
-11. Bitwise Operators
+6. Bitwise Operators
 Operate on individual bits:
 ```cpp
 int a = 5;      // Binary: 101
@@ -165,7 +165,7 @@ int result4 = ~a;       // NOT: ...11111010 (-6)
 int result5 = a << 1;   // Left shift: 1010 (10)
 int result6 = a >> 1;   // Right shift: 10 (2)
 ```
-13. Special Operators
+7. Special Operators
 ```cpp
 // Ternary operator (conditional)
 int a = 5, b = 10;
@@ -180,7 +180,7 @@ int* ptr = &var;               // Address-of operator
 int value = *ptr;              // Dereference operator
 Operator Precedence (High to Low)
 ```
-```cpp
+
 () [] -> . - Postfix operators
 ++ -- + - ! ~ * & sizeof - Unary operators
 * / % - Multiplicative
@@ -195,4 +195,4 @@ Operator Precedence (High to Low)
 || - Logical OR
 ?: - Ternary
 = += -= *= /= %= - Assignment
-```
+
