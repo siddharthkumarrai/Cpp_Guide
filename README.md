@@ -69,7 +69,7 @@ graph TD
     
     B --> E["int<br/>float<br/>double<br/>char<br/>boolean<br/>void"]
     C --> F["Array<br/>function<br/>pointer<br/>reference"]
-    D --> G["Structure<br/>Union<br/>Enum<br/>Class<br/>Typedef"]
+    D --> G["Structure<br/>Union<br/>Enum<br/>Class<br/>Typedef<br/>String"]
     
     style A fill:#e1f5fe,stroke:#0277bd,stroke-width:3px,color:#000
     style B fill:#f3e5f5,stroke:#333,stroke-width:2px,color:#000
