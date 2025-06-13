@@ -79,3 +79,26 @@ graph TD
     style F fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
     style G fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
 ```
+## strings in C++:
+```cpp
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    string sidd = "siddharth kumar rai";
+    cout << sidd;
+    
+    return 0;
+}
+```
+Code Explanation:
+
+- #include <iostream> - Includes input/output stream library for cout
+- #include <string> - Includes the string library to use std::string
+- using namespace std; - Allows using standard library functions without std:: prefix
+- string sidd = "siddharth kumar rai"; - Creates a string variable and initializes it
+- cout << sidd; - Outputs the string to console
+- return 0; - Indicates successful program execution
