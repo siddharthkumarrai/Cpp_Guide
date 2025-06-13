@@ -1,5 +1,4 @@
 # C++ Guide
-
 ```mermaid
 graph TD
     A["C++"] --> B["Platform dependent"]
@@ -15,7 +14,14 @@ graph TD
     style E fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
     style F fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
 ```
-- #include -> Preprocessor directives
+### Key Features Explained
+
+- Platform dependent: C++ code needs to be compiled for specific platforms/architectures
+- Object-oriented: Supports classes, objects, inheritance, polymorphism, and encapsulation
+- Statically-typed: Variable types are checked at compile time
+- Speed: Compiled language that produces efficient machine code
+- Pointers: Direct memory access and manipulation capabilities
+## #include -> Preprocessor directives
 ## How to use namespace
 - Method 1
 ```cpp
