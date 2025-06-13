@@ -79,7 +79,7 @@ graph TD
     style F fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
     style G fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
 ```
-## strings in C++:
+## strings in C++: 
 ```cpp
 #include <iostream>
 #include <string>
