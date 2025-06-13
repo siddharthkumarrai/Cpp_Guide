@@ -7,7 +7,7 @@ graph TD
     B --> D["Statically-typed"]
     C --> E["Speed"]
     D --> F["Pointers"]
-    
+     
     style A fill:#f9f9f9,stroke:#333,stroke-width:3px
     style B fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
     style C fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
