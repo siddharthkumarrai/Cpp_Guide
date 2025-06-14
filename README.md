@@ -196,4 +196,81 @@ Operator Precedence (High to Low)
 ?: - Ternary
 = += -= *= /= %= - Assignment
 ```
+# C++ Input Methods
+
+## Taking Input in C++
+There are **two main methods** to take input from the user in C++:
+
+---
+
+### 1. `cin >> variable`
+- Takes input until whitespace
+- Cannot take full line with spaces
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name;
+    cin >> name;  // Input stops at whitespace
+    cout << "Your name: " << name;
+    return 0;
+}
+```
+
+---
+
+### 2. `getline(cin, variable)`
+- Takes the entire line including spaces
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string name;
+    getline(cin, name);  // Takes full line
+    cout << "Full name: " << name;
+    return 0;
+}
+```
+
+---
+
+## Important Tip
+If you're using both `cin` and `getline()` together, add:
+```cpp
+cin.ignore();
+```
+before `getline()` to clear leftover newline characters.
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int age;
+    string name;
+
+    cin >> age;
+    cin.ignore();           // Clears the buffer
+    getline(cin, name);     // Safely reads full name
+
+    cout << "Age: " << age << "\n";
+    cout << "Name: " << name;
+    return 0;
+}
+```
+
+---
+
+### Summary Table
+| Method           | Reads Spaces | Suitable For      |
+|------------------|--------------|-------------------|
+| `cin >> var`     | ❌           | Single word input |
+| `getline(cin, var)` | ✅        | Full line input   |
+
  
